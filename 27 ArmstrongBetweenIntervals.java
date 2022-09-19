@@ -4,7 +4,8 @@ class HelloWorld {
         System.out.println("Enter a low range : ");
         Scanner s=new Scanner(System.in);
         int p=s.nextInt();
-        System.out.println("Enter a high range : ");
+        System.out.println("Enter a high range : "); 
+      
          int q=s.nextInt();int copy,res,inter;
      for(int i=p;i<q;i++)    {
          copy=i;
